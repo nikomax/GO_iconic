@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'futura_bk_btbook';
+    src: url('../fonts/Futura Bk BT Book/tt0140m_-webfont.woff2') format('woff2'),
+    url('../fonts/Futura Bk BT Book/tt0140m_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_md_btbold';
+    src: url('../fonts/Futura Md BT Bold/tt0144m_-webfont.woff2') format('woff2'),
+    url('../fonts/Futura Md BT Bold/tt0144m_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
