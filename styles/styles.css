@@ -1,3 +1,9 @@
+body {
+  min-width: 320px; }
+
+.wrapper {
+  margin: 0 auto; }
+
 @media (min-width: 320px) {
   header {
     height: 70px;
@@ -100,10 +106,99 @@
     background-color: inherit; }
     .menu_link:hover {
       border-bottom: 2px solid #3070a8; } }
-body {
-  min-width: 320px; }
+@media (min-width: 320px) {
+  .bunner {
+    background-image: url("../images/bunner-bg.png");
+    background-size: cover;
+    text-align: center;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
 
-.wrapper {
-  margin: 0 auto; }
+  .bunner_first-line {
+    font-family: futura_bk_btbook;
+    font-size: 20px;
+    color: white;
+    line-height: 25px; }
+
+  .bunner_heading {
+    font-family: futura_md_btbold;
+    font-size: 23px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase; }
+
+  .bunner_description {
+    display: none; }
+
+  .bunner_button {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #8c97a7;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px; }
+
+  .bunner_button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 10px 1px white;
+    -moz-box-shadow: 1px 1px 10px 1px white;
+    box-shadow: 1px 1px 10px 1px white; }
+
+  .button_name {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans Semi-Bold", sans-serif;
+    font-size: 20px; } }
+@media (min-width: 320px) {
+  .bunner {
+    background-image: url("../images/bunner-bg.png");
+    background-size: cover;
+    text-align: center;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+  .bunner_first-line {
+    font-family: futura_bk_btbook;
+    font-size: 20px;
+    color: white;
+    line-height: 25px; }
+
+  .bunner_heading {
+    font-family: futura_md_btbold;
+    font-size: 23px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase; }
+
+  .bunner_description {
+    display: block; }
+
+  .bunner_button {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #8c97a7;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px; }
+
+  .bunner_button:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 10px 1px white;
+    -moz-box-shadow: 1px 1px 10px 1px white;
+    box-shadow: 1px 1px 10px 1px white; }
+
+  .button_name {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans Semi-Bold", sans-serif;
+    font-size: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
