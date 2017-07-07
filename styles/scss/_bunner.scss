@@ -56,28 +56,19 @@
 
 @media (min-width: 1024px) {
   .bunner {
-    background-image: url("../images/bunner-bg.png");
-    background-size: cover;
-    text-align: center;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 585px;
   }
 
   .bunner_first-line {
-    font-family: futura_bk_btbook;
-    font-size: 20px;
-    color: white;
-    line-height: 25px;
+    font-size: 36px;
+    line-height: 75px;
   }
 
   .bunner_heading {
-    font-family: futura_md_btbold;
-    font-size: 23px;
-    line-height: 28px;
-    color: white;
-    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 70px;
+    width: 880px;
+    margin: 0 auto;
   }
 
   .bunner_description {
