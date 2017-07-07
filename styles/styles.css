@@ -177,7 +177,14 @@ body {
     text-transform: uppercase; }
 
   .bunner_description {
-    display: block; }
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 28px; }
 
   .bunner_button {
     height: 40px;
