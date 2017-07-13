@@ -1,0 +1,116 @@
+@media (min-width: 320px) {
+  .feedback {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-image: url("../images/feedback-bg.png");
+  }
+
+  .feedback_heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: futura_md_btbold;
+    color: $main_color;
+    text-transform: uppercase;
+  }
+
+  .heading_first-word {
+    font-family: futura_bk_btbook;
+    color: $main_heading_color;
+  }
+
+  .customers-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .feedback_customer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .feedback-box {
+    width: 175px;
+    background-color: white;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .client_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    color: $main_color;
+    line-height: 40px;
+  }
+
+  .feedback-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    margin: 5px 0 10px 0;
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .feedback {
+    padding: 60px 0 60px 0;
+  }
+
+  .feedback_wrapper {
+    max-width: 1024px;
+  }
+
+  .feedback_heading {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .feedback-box {
+    width: 340px;
+    margin-left: 25px;
+    position: relative;
+  }
+
+  .feedback-box:before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    bottom: 36px;
+    border: 13px solid transparent;
+    border-right: 13px solid white;
+  }
+
+  .client_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    color: $main_color;
+    line-height: 40px;
+  }
+
+  .feedback-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: left;
+  }
+}

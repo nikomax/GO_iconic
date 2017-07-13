@@ -314,9 +314,6 @@ body {
     font-size: 17px;
     margin-bottom: 25px; }
 
-  .middle-section_list {
-    list-style: circle outside; }
-
   .list_item {
     font-size: 14px;
     line-height: 25px; } }
@@ -412,15 +409,18 @@ body {
     background-color: #ee8129;
     border: none;
     border-radius: 5px;
-    -webkit-box-shadow: inset 0px -3px 2px -3px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: inset 0px -3px 2px -3px rgba(0, 0, 0, 0.75);
-    box-shadow: inset 0px -3px 2px -3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: inset 0px -5px 2px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px -5px 2px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px -5px 2px -3px rgba(0, 0, 0, 0.75);
     height: 40px;
     width: 100%;
     color: white;
     text-transform: uppercase;
     font-family: "Open Sans";
-    font-weight: bold; } }
+    font-weight: bold; }
+
+  .price_button:hover {
+    cursor: pointer; } }
 @media (min-width: 1024px) {
   .pricing {
     margin: 75px 0 90px 0; }
@@ -461,5 +461,102 @@ body {
   .options_item {
     font-size: 15px;
     line-height: 30px; } }
+@media (min-width: 320px) {
+  .feedback {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-image: url("../images/feedback-bg.png"); }
+
+  .feedback_heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: futura_md_btbold;
+    color: #3070a8;
+    text-transform: uppercase; }
+
+  .heading_first-word {
+    font-family: futura_bk_btbook;
+    color: #ee8129; }
+
+  .customers-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+
+  .feedback_customer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+
+  .feedback-box {
+    width: 175px;
+    background-color: white;
+    margin-left: 0;
+    padding: 0 15px; }
+
+  .client_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    color: #3070a8;
+    line-height: 40px; }
+
+  .feedback-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    margin: 5px 0 10px 0;
+    text-align: left; } }
+@media (min-width: 1024px) {
+  .feedback {
+    padding: 60px 0 60px 0; }
+
+  .feedback_wrapper {
+    max-width: 1024px; }
+
+  .feedback_heading {
+    font-size: 40px;
+    margin-bottom: 40px; }
+
+  .feedback-box {
+    width: 340px;
+    margin-left: 25px;
+    position: relative; }
+
+  .feedback-box:before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    bottom: 36px;
+    border: 13px solid transparent;
+    border-right: 13px solid white; }
+
+  .client_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    color: #3070a8;
+    line-height: 40px; }
+
+  .feedback-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: left; } }
 
 /*# sourceMappingURL=styles.css.map */
