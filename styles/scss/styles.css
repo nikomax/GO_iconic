@@ -2,7 +2,8 @@ body {
   min-width: 320px; }
 
 .wrapper {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 10px; }
 
 @media (min-width: 320px) {
   header {
@@ -19,12 +20,12 @@ body {
   .logo_first-word {
     color: #ee8129;
     font-family: futura_bk_btbook;
-    font-size: 30px; }
+    font-size: 25px; }
 
   .logo_second-word {
     color: #3070a8;
     font-family: futura_md_btbold;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase; }
 
   .nav_menu {
@@ -165,7 +166,7 @@ body {
     font-size: 48px;
     line-height: 70px;
     width: 880px;
-    margin: 0; }
+    margin: 0 auto; }
 
   .bunner_description {
     display: block;
@@ -196,7 +197,68 @@ body {
   .button_name {
     color: white;
     text-transform: uppercase;
-    font-family: "Open Sans Semi-Bold", sans-serif;
-    font-size: 20px; } }
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold; } }
+@media (min-width: 320px) {
+  .servises {
+    text-align: center;
+    padding-top: 30px; }
+
+  .servises_wrapper {
+    max-width: 320px; }
+
+  .servises_heading {
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #41525c;
+    font-size: 20px; }
+
+  .servises_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px; }
+
+  .article_heading {
+    text-transform: uppercase;
+    font-family: futura_bk_btbook;
+    color: #3070a8;
+    font-size: 25px;
+    margin: 15px 0; }
+
+  .article_description {
+    font-family: "Open Sans";
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px; } }
+@media (min-width: 1024px) {
+  .servises {
+    padding-top: 70px; }
+
+  .servises_wrapper {
+    max-width: 1024px; }
+
+  .servises_heading {
+    font-size: 30px; }
+
+  .servises_container {
+    margin-top: 78px; }
+
+  .conteiner_item {
+    width: 30%; }
+
+  .article_heading {
+    font-size: 30px;
+    margin: 30px 0 20px 0; }
+
+  .article_description {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 62px; } }
 
 /*# sourceMappingURL=styles.css.map */

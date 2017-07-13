@@ -1,0 +1,76 @@
+@media (min-width: 320px) {
+  .servises {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .servises_wrapper {
+    max-width: 320px;
+  }
+
+  .servises_heading {
+    text-transform: uppercase;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #41525c;
+    font-size: 20px;
+  }
+
+  .servises_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+  }
+
+  .article_heading{
+    text-transform: uppercase;
+    font-family: futura_bk_btbook;
+    color: $main_color;
+    font-size: 25px;
+    margin: 15px 0;
+  }
+
+  .article_description {
+    font-family: "Open Sans";
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .servises {
+    padding-top: 70px;
+  }
+
+  .servises_wrapper {
+    max-width: 1024px;
+  }
+
+  .servises_heading {
+    font-size: 30px;
+  }
+
+  .servises_container {
+    margin-top: 78px;
+  }
+
+  .conteiner_item {
+    width: 30%;
+  }
+
+  .article_heading{
+    font-size: 30px;
+    margin: 30px 0 20px 0;
+  }
+
+  .article_description {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 62px;
+  }
+}
