@@ -1,0 +1,77 @@
+@media (min-width: 320px) {
+  .middle-section {
+    background-image: url("../images/middle-bg.png");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .middle-section_heading {
+    font-family: futura_bk_btbook;
+    font-size: 20px;
+    color: $main_heading_color;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .midlle-section_paragraph {
+    font-family: "Open Sans";
+    font-style: italic;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .middle-section_list {
+    list-style: disc outside;
+  }
+
+  .list_item {
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #9d9d9d;
+    line-height: 18px;
+    margin: 0 0 15px 22px;
+  }
+
+  .list_item--active {
+    color: $main_color;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .middle-section {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+
+  .middle-wrapper {
+    max-width: 1024px;
+  }
+
+  .content-box {
+    width: 680px;
+  }
+
+  .middle-section_heading {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .midlle-section_paragraph {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+
+  .middle-section_list {
+    list-style: circle outside;
+  }
+
+  .list_item {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
