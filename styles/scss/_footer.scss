@@ -1,0 +1,145 @@
+@media (min-width: 320px) {
+
+  .contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contacts {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 14px;
+    color: #666666;
+    margin: 50px 0 0 30%;
+
+    address {
+      line-height: 25px;
+      display: block;
+      position: relative;
+    }
+
+    address:before {
+      display: block;
+      position: absolute;
+      left: -35px;
+      top: -5px;
+      content: url("../images/adress-marker.png");
+    }
+
+    .phone {
+      margin-top: 25px;
+      display: block;
+      position: relative;
+    }
+
+    .phone:before {
+      display: block;
+      position: absolute;
+      left: -35px;
+      top: -5px;
+      content: url("../images/phone-icon.png");
+    }
+
+    .email {
+      margin-top: 25px;
+      display: block;
+      position: relative;
+
+      a {
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 14px;
+        color: #666666;
+      }
+    }
+
+    .email:before {
+      display: block;
+      position: absolute;
+      left: -37px;
+      top: 0px;
+      content: url("../images/letter.png");
+    }
+  }
+
+  .social {
+    margin: 40px 0 20px -35px;
+  }
+
+  .social_item {
+    background-image: url("../images/social-gray.png");
+    display: inline-block;
+    height: 49px;
+    width: 48px;
+    margin-right: 15px;
+  }
+
+  .social_item--twitter {
+    background-position: -48px;
+  }
+
+  .social_item--linkedin {
+    background-position: -96px;
+  }
+
+  .social_item:hover {
+    background-image: url("../images/social.png");
+    cursor: pointer;
+  }
+
+  .map {
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    background-color: $main_color;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: white;
+    height: 70px;
+
+    span {
+      font-weight: bold;
+    }
+
+    .designed {
+      margin-top: 15px;
+      span {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  .contact_wrapper {
+    max-width: 1024px;
+  }
+
+  .contacts {
+    margin: 50px 0 0 35px;
+  }
+
+  .map {
+    width: 70%;
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  .copyright {
+    height: 105px;
+    font-size: 14px;
+  }
+}
