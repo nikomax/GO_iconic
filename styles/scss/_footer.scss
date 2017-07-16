@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
 
-  .contact_wrapper {
+  .contact_container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -32,6 +32,12 @@
       margin-top: 25px;
       display: block;
       position: relative;
+      a {
+        font-family: "Open Sans";
+        font-weight: bold;
+        font-size: 14px;
+        color: #666666;
+      }
     }
 
     .phone:before {
@@ -124,7 +130,7 @@
 }
 
 @media (min-width: 1024px) {
-  .contact_wrapper {
+  .contact_container {
     max-width: 1024px;
   }
 
