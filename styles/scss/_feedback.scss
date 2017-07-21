@@ -32,8 +32,11 @@
     margin-bottom: 15px;
   }
 
+  .customer_avatar {
+    background: white;
+  }
+
   .feedback-box {
-    width: 175px;
     background-color: white;
     margin-left: 0;
     padding: 0 15px;
@@ -103,6 +106,13 @@
     color: $main_color;
     line-height: 40px;
   }
+
+  .customer_avatar {
+    img {
+      height: 100%;
+    }
+  }
+
 
   .feedback-text {
     font-family: "Open Sans";

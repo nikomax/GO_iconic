@@ -1,12 +1,12 @@
 @media (min-width: 320px) {
-  .middle-section {
+  .key-features {
     background-image: url("../images/middle-bg.png");
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 40px;
   }
 
-  .middle-section_heading {
+  .key-features_heading {
     font-family: futura_bk_btbook;
     font-size: 20px;
     color: $main_heading_color;
@@ -24,7 +24,7 @@
     margin-bottom: 20px;
   }
 
-  .middle-section_list {
+  .key-features_list {
     list-style: disc outside;
   }
 
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 1024px) {
-  .middle-section {
+  .key-features {
     padding-top: 90px;
     padding-bottom: 70px;
   }
@@ -56,7 +56,7 @@
     width: 680px;
   }
 
-  .middle-section_heading {
+  .key-features_heading {
     font-size: 26px;
     margin-bottom: 20px;
   }

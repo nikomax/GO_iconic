@@ -72,26 +72,27 @@
 
   .social {
     margin: 40px 0 20px -35px;
+    display: flex;
+    flex-direction: row;
   }
 
   .social_item {
-    background-image: url("../images/social-gray.png");
-    display: inline-block;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 49px;
     width: 48px;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
     margin-right: 15px;
-  }
-
-  .social_item--twitter {
-    background-position: -48px;
-  }
-
-  .social_item--linkedin {
-    background-position: -96px;
+    transition: 0.5s
   }
 
   .social_item:hover {
-    background-image: url("../images/social.png");
+    background-color: $main_color;
     cursor: pointer;
   }
 
