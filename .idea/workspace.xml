@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f39ada-b531-40fd-9359-269b53818e98" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles/scss/_middle-section.scss" afterPath="$PROJECT_DIR$/styles/scss/_key-features.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_feedback.scssc" afterPath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_feedback.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_footer.scssc" afterPath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_pricing.scssc" afterPath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/_pricing.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/styles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/adbac018d659d8e1445065a9e646f9fb84c6bf63/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/social.png" afterPath="$PROJECT_DIR$/images/social.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/_feedback.scss" afterPath="$PROJECT_DIR$/styles/scss/_feedback.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/_footer.scss" afterPath="$PROJECT_DIR$/styles/scss/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/_pricing.scss" afterPath="$PROJECT_DIR$/styles/scss/_pricing.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/styles.css" afterPath="$PROJECT_DIR$/styles/scss/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" afterPath="$PROJECT_DIR$/styles/scss/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/scss/styles.scss" afterPath="$PROJECT_DIR$/styles/scss/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css" afterPath="$PROJECT_DIR$/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/styles.css.map" afterPath="$PROJECT_DIR$/styles/styles.css.map" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -392,12 +377,12 @@
       <workItem from="1499959739243" duration="20520000" />
       <workItem from="1500105988402" duration="48000" />
       <workItem from="1500199422669" duration="10606000" />
-      <workItem from="1500620083165" duration="4000000" />
+      <workItem from="1500620083165" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73184000" />
+    <option name="totallyTimeSpent" value="73856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +395,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,7 +404,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
