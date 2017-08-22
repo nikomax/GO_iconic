@@ -273,7 +273,10 @@
                     </li>
                 </ul>
             </div>
-            <img class="map" src="images/map.png" alt="map">
+            <!--<img class="map" src="images/map.png" alt="map">-->
+            <div class="mapdiv">
+                <div id="map"></div>
+            </div>
         </div>
     </div>
     <div class="copyright">
@@ -283,5 +286,11 @@
         <p class="designed">Designed by <span>IconicGraphics.com</span></p>
     </div>
 </footer>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMCw06L5awe5nXZOzy-waQaEDoUwqmyGQ&callback=initMap"
+        async
+        defer>
+</script>
+<script src="js/common.js"></script>
 </body>
 </html>
